@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a8e6cf; /* Verde claro */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Pantallas medianas (entre 480px y 768px) */
+@media (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: #ffd3b6; /* Naranja claro */
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* Pantallas grandes (más de 768px) */
+@media (min-width: 769px) {
+  body {
+    background-color: #d4e4f7; /* Azul claro */
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+}
